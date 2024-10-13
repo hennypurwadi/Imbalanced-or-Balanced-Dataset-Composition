@@ -1,6 +1,7 @@
-## Assessing the Impact of Documenting Dataset Composition for Model Training—Whether Imbalanced or Balanced—on AI Model Transparency and Fairness, and Examining How Small Sample Sizes Can Mislead Bias Evaluation
 
-### Examines Bias and Unfairness in Explainable Artificial Intelligence (XAI) Resulting from Imbalanced Training Datasets and the Misleading Impact of Small Sample Sizes
+## Assessing the Impact of Documenting Dataset Composition—Imbalanced vs. Balanced—on AI Model Transparency and Fairness: The Role of Dataset Imbalance and Small Sample Sizes in Bias Evaluation
+
+### Examining Bias and Unfairness in Explainable Artificial Intelligence (XAI) Due to Imbalanced Training Data and Misleading Effects of Small Sample Sizes
 
 ### ABSTRACT
 

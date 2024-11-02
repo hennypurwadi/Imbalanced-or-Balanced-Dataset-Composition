@@ -1,0 +1,36 @@
+Introduction:
+This Research proposes the incorporation of dataset characteristics to be documented into Responsible AI and Explainable AI (XAI) practices, 
+especially the homogeneity composition, whether the dataset is balanced or imbalanced, 
+and data sparsity, whether small or large samples, which are critical approach for transparency at both the data and model levels
+
+Research Questions:
+1.How does the documentation of dataset homogeneity composition (in this case balance vs. imbalanced) impact the AI model transparency and fairness in decision-making systems? 
+2. What is the relationship between data sparsity (like dataset’s size) and the bias evaluation in AI models, when the training data is imbalanced ?
+3. How do small sample sizes mislead bias evaluation, and what are the implications for models trained on imbalanced datasets?
+
+Literature Review:
+The previous studies founded that the imbalance ratio (IR) influences the performance and stability of the model, especially in model like Logistic Regression, Decision Trees, and Support Vector Classifiers.
+The previous study also warned that too small sample sizes can create significant bias. 
+
+Terminology and Definition
+These are performance metrics used in this study, which are Accuracy, Precision, Recall, F1-score and Area Under the Curve/ AUC.
+
+Methodology: 
+- Synthetic dataset used for both quantitative analysis and comparative evaluations using Logistic Regression.
+- Small Balanced dataset consisted of ten thousands dataset, versus Large Balanced dataset consisted of 1 million dataset, then investigate with LIME (local interpretable model-agnostic explanations).
+- Small Imbalanced dataset consisted of ten thousands dataset, versus Large Imbalanced dataset consisted of 1 million dataset, then investigate with LIME (local interpretable model-agnostic explanations). 
+
+Result Findings were in-line with previous studies' findings:
+-The research also found how small sample sizes can provide a false sense of fairness. This bias becomes obvious when the size of the dataset increase.
+-Models trained on imbalanced datasets showed bias, favouring the majority class and ignore the minority classes. 
+-This study recommends the documentation of dataset characteristics into Responsible AI and Explainable AI (XAI) practices. 
+Documenting dataset composition increased the AI model transparency and fairness and gain more trust from the stakeholders about the AI systems.
+
+Discussion of Limitation
+-This study were not perfect and has several limitations.
+
+Recommendation for Future Research
+-Could use Over-sampling or Under-sampling method to deal with Imbalanced dataset.
+-Evaluate with other models.
+- Using real data instead of synthetic dataset.  
+

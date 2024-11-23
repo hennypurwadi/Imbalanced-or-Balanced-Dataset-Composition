@@ -16,8 +16,7 @@ Balance Dataset, Bias Mitigation, Dataset Composition, Dataset Documentation, Ex
 
 ### RESEARCH QUESTIONS
 1. How does the dataset homogeneity composition (balance vs. imbalanced) impact the AI model transparency and fairness in decision-making systems?
-2. What is the relationship between data sparsity/ dataset’s size and the accuracy of bias evaluation in AI models, when the training data is class-imbalanced ?
-3. How do small sample sizes mislead the bias evaluation for models trained on class-imbalanced datasets?
+2. How does the data sparsity/ dataset’s size (Large versus small) influence the accuracy of bias evaluation in AI models, when the training data is class-imbalanced?
 
 ### There are four types of datasets to be compared and evaluated in this research: small, large, balanced, and imbalanced:
 Small and balanced
